@@ -22,7 +22,7 @@ module.exports = Marionette.Layout.extend({
     columns : [
         {
             name  : 'series',
-            label : 'Series',
+            label : 'Movie',
             cell  : SeriesTitleCell
         },
         {
@@ -34,7 +34,6 @@ module.exports = Marionette.Layout.extend({
             name     : 'quality',
             label    : 'Quality',
             cell     : QualityCell,
-            sortable : false
         },
         {
             name  : 'date',
